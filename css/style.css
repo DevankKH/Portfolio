@@ -143,7 +143,7 @@ li {
     background-color: #1E1E24;
     padding-top: 30px;
     border-radius: 10px;
-    z-index: 1;
+    z-index: 3;
 }
 
 #Nav ul{
