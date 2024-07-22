@@ -369,14 +369,15 @@ li {
 
 #projectList button {
     width: 150px;
-    height: 50px;
+    min-height: 50px;
+    padding: 5px;
     border: none;
     border-radius: 10px;
     margin-bottom: 20px;
     background-color: #F7EBE8;
 }
 
-#projectList button:hover {
+#projectList .project:hover {
     background-color: #1E1E24;
     color: #F7EBE8;
     border: 2px solid #F7EBE8;
@@ -394,14 +395,6 @@ li {
     overflow-y: auto;
 }
 
-#portfolioShow h3{
-    padding: 0px;
-}
-
-#portfolioShow span{
-    display: block;
-}
-
 .activeProjectButton {
     /* Class to add to button if clicked to change style */
     background-color: #1E1E24 !important;
@@ -416,6 +409,23 @@ li {
 .showDiv {
     /* Class to add to div when button clicked to make visible */
     display: block !important;
+}
+
+.projectDiv ul li{
+    list-style-type: circle ;
+}
+
+.projectDiv span{
+    font-weight: bold;
+}
+
+.projectDiv div{
+    text-align: center;
+}
+
+.projectImages {
+    width: 700px;
+    padding-bottom: 10px;
 }
 
 /*-----------------------------------------------------------------------------*/
