@@ -50,7 +50,7 @@
             <div id="CodingPage">
                <div id="projectList">
                     <button type="button" name="portfolio" class="project"><span>Portfolio</span></button>
-                    <button type="button" name="blog" class="projectDisabled" disabled><span>Blog Site</span></button>
+                    <button type="button" name="blog" class="project"><span>Blog Site</span></button>
                     <button type="button" name="api" class="projectDisabled" disabled><span>Custom API</span></button>
                </div>
                <div id="projectArea">
@@ -84,13 +84,38 @@
                         </div>
                     </div>
                     <div id="blog" class="projectDiv">
-                        <h3>My Blog Site</h3>
+                        <h3>My Blogsite</h3>
+                        <span><i>Description</i></span>
                         <p>
-                            <span><i>Description</i></span>
-                            <span><i>Languages Used</i></span>
+                            This project was created to showcase my express, node.js and javascript skills as well as HTML and CSS. This
+                            project simulated a blog website where a user can post blogs and others can view it. The blogs posted are temporary
+                            and last for the session as the main goal was to setup the site. The user can add blogs, view blogs, login.
+                            As an upgrade the site can be implemented with a database to save the posts and login details.
                         </p>
+                        <p>
+                            The first section is the home tab that shows all the posts. There is a search function and filter per genre
+                            section that does work. The user can then navigate to add a blog, view a blog or login.
+                            The add blog section includes a form that takes in certain input including text, images etc. This is used to store the 
+                            blogs information and populate it when returning to the main page.
+                            I have also created a login page with a form that saves user information when posted. This does not currently save anything
+                            and is used for demonstation purposes, but an implementation idea is that we would not need the users name in the add blog form 
+                            and you would only be allowed to add a blog if you were signed in. <br/>
+                            <b><a href="https://github.com/DevankKH/Blogsite" target="_blank">The project can be found here</a></b>
+                        </p>
+                        <span><i>Languages/Frameworks Used</i></span>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap</li>
+                            <li>Node.js</li>
+                            <li>Express</li>
+                        </ul>
                         <div>
-                            <img class="projects" src="./" alt="images of project">
+                            <img class="projectImages" src="./images/Home 2.png" alt="Home page of project">
+                            <img class="projectImages" src="./images/Add Article.png" alt="Add a new article page of project">
+                            <img class="projectImages" src="./images/Article.png" alt="view article page of project">
+                            <img class="projectImages" src="./images/Login.png" alt="Login page of project">
                         </div>
                     </div>
                     <div id="api" class="projectDiv">
