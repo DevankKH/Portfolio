@@ -62,10 +62,11 @@ body {
 }
 
 #picture{
-    background-image: url("../images/Dragon.jpg");
+    background-image: url("../images/Profile Picture.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: center;
+    background-position-y: 10%;
     border-radius: 50%;
     width: 150px;
     height: 150px;
